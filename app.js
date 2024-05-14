@@ -1,9 +1,3 @@
-/*
-* Curso de Node.js y Express.
-* Creado para freeCodeCamp en Español.
-* Por: Estefania Cassingena Navone. 
-*/
-
 const express = require('express');
 const app = express();
 
@@ -18,7 +12,7 @@ app.use('/api/cursos/matematicas', routerMatematicas);
 
 // Routing
 app.get('/', (req, res) => {
-  res.send('Mi primer servidor con Express. Cursos 💻.');        
+  res.send('Microproyecto 3= Node.js y Expres. Cursos 💻.');        
 });
 
 app.get('/api/cursos', (req, res) => {
